@@ -27,7 +27,7 @@ const Movie = () => {
                       />
                       <Card.Body>
                         <Card.Title className="movieTitle">
-                          {curElem.Title}
+                          <p>{curElem.Title}</p>
                         </Card.Title>
                       </Card.Body>
                     </Card>
